@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sergio Rodriguez — Dev Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ── Custom Cursor ── -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ── NAV ── -->
+  <nav id="nav">
+    <span class="nav-logo">SR.</span>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg-text">DEV</div>
+    <div class="hero-tag">Disponible para proyectos</div>
+    <h1>
+      <span class="line"><span>Diseño</span></span>
+      <span class="line"><span>y construyo</span></span>
+      <span class="line"><span>para la web.</span></span>
+    </h1>
+    <div class="hero-bottom">
+      <p class="hero-desc">
+        Desarrollador frontend con conocimientos de Python y Microsoft Power Platform.<br/>
+        
+      </p>
+      <div class="hero-scroll">
+        <div class="scroll-line"></div>
+        Scroll
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="section-label">01 — Sobre mí</div>
+    <h2>Quién soy</h2>
+    <div class="about-grid">
+
+      <div class="about-text reveal">
+        <p>
+          Soy un <strong>desarrollador web en crecimiento</strong>, apasionado por
+          construir productos digitales que sean tan funcionales como visualmente cuidados.
+        </p>
+        <p>
+          Me muevo entre el <strong>frontend</strong> y el backend con Python,
+          tambien tengo experiencia con Microsoft Power Platform. Me encanta enfrentar nuevos desafíos
+          y cada proyecto es una oportunidad para aprender algo nuevo.
+        </p>
+        <p>
+          Actualmente estoy ampliando mi stack hacia <strong>React</strong> y
+          explorando el mundo de las <strong>aplicaciones con IA</strong>.
+        </p>
+        <div class="skills-list">
+          <span class="skill-tag">HTML / CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">FastAPI</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Tailwind CSS</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+      </div>
+
+      <div class="about-stats reveal" style="transition-delay: 0.15s">
+        <div class="stat-box">
+          <span class="stat-number">+5</span>
+          <div class="stat-label">Proyectos completados</div>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">2</span>
+          <div class="stat-label">Años aprendiendo</div>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">∞</span>
+          <div class="stat-label">Ganas de aprender</div>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">100%</span>
+          <div class="stat-label">Compromiso</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="section-label">02 — Trabajo</div>
+    <h2>Proyectos</h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-number">001</div>
+        <div class="project-title">Portfolio Personal</div>
+        <p class="project-desc">Este mismo portfolio. Diseñado y construido desde cero con HTML, CSS y JavaScript puro.</p>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+              <polyline points="15 3 21 3 21 9"/>
+              <line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+            Ver demo
+          </a>
+          <a href="#" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay: 0.1s">
+        <div class="project-number">002</div>
+        <div class="project-title">GameChatTraductor</div>
+        <p class="project-desc">Es una aplicación que permite traducir el chat de juegos en tiempo real.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/BetisergioDevs/GameChatTraductor" class="project-link" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay: 0.2s">
+        <div class="project-number">003</div>
+        <div class="project-title">Próximo Proyecto</div>
+        <p class="project-desc">Actualmente trabajando en algo nuevo. Vuelve pronto para verlo.</p>
+        <div class="project-tags">
+          <span class="project-tag">React</span>
+          <span class="project-tag">En progreso</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link" style="opacity: 0.4; pointer-events: none">Próximamente</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay: 0.3s; opacity: 0.4; border-style: dashed;">
+        <div class="project-number">004</div>
+        <div class="project-title">Más por venir...</div>
+        <p class="project-desc">Este portfolio crece junto a mí. Cada proyecto es un paso más en el camino.</p>
+        <div class="project-tags">
+          <span class="project-tag">Futuro</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="section-label" style="justify-content: center">03 — Contacto</div>
+      <h2 class="reveal">¿Trabajamos<br/>juntos?</h2>
+      <p class="reveal" style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--muted); font-style: italic; margin-bottom: 0.5rem; transition-delay: 0.1s">
+        Estoy abierto a proyectos freelance, colaboraciones y oportunidades laborales.
+      </p>
+      <a href="mailto:tu@email.com" class="contact-email reveal" style="transition-delay: 0.2s">
+        betisergiodevs@gmail.com
+      </a>
+      <ul class="social-links reveal" style="transition-delay: 0.3s">
+        <li><a href="https://github.com/BetisergioDevs?tab=repositories">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/sergio-rodr%C3%ADguez-olivares-6901202a5/">LinkedIn</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <span>© 2026 — Sergio Rodriguez Olivares</span>
+    <span>Diseñado & construido por mí</span>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+
+</body>
+</html>
